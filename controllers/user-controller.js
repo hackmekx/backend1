@@ -5,9 +5,9 @@ const NewsletterSchema = require("../model/Newsletter");
 const EnquerySchema = require("../model/Enquery");
 
 cloudinary.config({
-  cloud_name: process.env.CLOUD_NAME,
-  api_key: process.env.API_KEY,
-  api_secret: process.env.API_SECRET,
+  cloud_name: 'dnuawjwya',
+  api_key: '722837828956172',
+  api_secret: '3Ze8CzpiJwE5N3oyuVi2vpqre0o',
 });
 
 const opts = {

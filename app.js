@@ -17,7 +17,7 @@ app.use(cors({credentials: true, origin:"*"}));
 
 app.use('/api', router);
 
-mongoose.connect(process.env.MONGO_URL).then(() =>{
+mongoose.connect('mongodb+srv://karan798322:TUhin798322@cluster0.jfxnyxi.mongodb.net/auth?retryWrites=true&w=majority').then(() =>{
     app.listen(5000);
     console.log("Database connected! listening to localhost");
 }).catch((err) => {
